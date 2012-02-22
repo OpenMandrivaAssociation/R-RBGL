@@ -9,12 +9,9 @@ Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-graph R-methods 
-Requires:         R-methods 
-Requires:         R-Rgraphviz 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graph R-methods
-BuildRequires:    R-methods 
-BuildRequires:    R-Rgraphviz 
+Requires:         R-graph R-methods R-Rgraphviz
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-graph R-methods R-Rgraphviz
 BuildRequires:    blas-devel
 BuildRequires:    boost-devel
 BuildRequires:    graphviz-devel
