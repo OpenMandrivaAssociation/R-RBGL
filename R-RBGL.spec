@@ -2,16 +2,19 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.30.1
+Version:          1.34.0
 Release:          1
 Summary:          An interface to the BOOST graph library
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-graph R-methods R-Rgraphviz
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-graph R-methods R-Rgraphviz
+Requires:         R-graph R-methods 
+Requires:         R-methods 
+Requires:         R-Rgraphviz 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-graph R-methods
+BuildRequires:    R-methods 
+BuildRequires:    R-Rgraphviz 
 BuildRequires:    blas-devel
 BuildRequires:    boost-devel
 BuildRequires:    graphviz-devel
@@ -55,3 +58,11 @@ fi
 %{rlibdir}/%{packname}/fdep.ps
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
+%changelog
+* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.30.1-1
++ Revision: 777610
+- Import R-RBGL
+- Import R-RBGL
+
