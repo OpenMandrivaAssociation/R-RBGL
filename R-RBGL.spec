@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.34.0
-Release:          1
+Release:          2
 Summary:          An interface to the BOOST graph library
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
