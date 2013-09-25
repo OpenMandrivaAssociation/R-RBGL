@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.34.0
-Release:          2
+Version:          1.36.2
+Release:          1
 Summary:          An interface to the BOOST graph library
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/RBGL_1.36.2.tar.gz
 Requires:         R-graph R-methods 
 Requires:         R-methods 
 Requires:         R-Rgraphviz 
@@ -65,4 +65,5 @@ fi
 + Revision: 777610
 - Import R-RBGL
 - Import R-RBGL
+
 
