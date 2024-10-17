@@ -7,7 +7,7 @@ Release:          1
 Summary:          An interface to the BOOST graph library
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+URL:              https://bioconductor.org/packages/release/bioc/html/%{packname}.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/RBGL_1.36.2.tar.gz
 Requires:         R-graph R-methods 
 Requires:         R-methods 
